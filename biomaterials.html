@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home - Crystal Teeth</title>
+        <link rel="stylesheet" type="text/css" href="styles/general.css" />
+        <link rel="stylesheet" type="text/css" href="styles/content.css" />
+        <link rel="stylesheet" type="text/css" href="styles/topbar.css" />
+        <link rel="stylesheet" type="text/css" href="styles/popup.css" />
+        <link rel="stylesheet" type="text/css" href="styles/footer.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="popup">
+            <div class="popup-container">
+                <div class="popup-text">
+                    This Page is intended for Medical professionals, and might not interest patients of Crystal Teeth.<br/><br/> Are you a Medical Professional?
+                </div>
+                <div class="popup-buttons">
+                    <div class="popup-button"><a href="index.html">I am Not, Back Home</a></div>
+                    <button onclick="hidePopup()" class="popup-button blue">I am a Medical Professional</button>
+                </div>
+            </div>
+        </div>
+        <nav id="topbar">
+            <div class="mobile-bar">
+                <img class="topbar-image" src="images/logo.jpg" alt="Crystal Teeth"/>
+                <button class="mobile-only topbar-button" onclick="toggleTopbar()">&#x2630;</button>
+            </div>
+            <ul id="topbar-links" class="topbar-links-list">
+                <li class="topbar-link"><a href="index.html">Home</a></li>
+                <li class="topbar-link"><a href="aboutus.html">About Us</a></li>
+                <li class="topbar-link"><a href="teeth-whitening.html">Teeth Whitening</a></li>
+                <li class="topbar-link"><a href="devices.html">Devices</a></li>
+                <li class="topbar-link"><a href="faq.html">FAQs</a></li>
+                <li class="topbar-link"><a href="biomaterials.html">Biomaterials</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="responsive-padding shadow">
+                <div class="strip">
+                    <h1 class="title">Crystal-Oss Bone Graft</h1>
+                    <p>origin from bovine bone mineral and manufactured via a distinctive process,
+                        crystal-oss TM bone grafting particulate has the crystalline structure of neat natural
+                        hydroxyapatite, resemble the structure of intact human bone (calcium deficient ).
+                        crystal-oss TM allows for a blend of porous structure for vascular access with a
+                        roughened surface that is advantage to cell adhesion and subsequent bone matrix
+                        deposition</p>
+                    <h2 class="subtitle">An Osteoconductive Matrix</h2>
+                    <p>surgeons have biocompatible and safe osteoconductive matrix used new bone
+                        formation in defects</p>
+                </div>
+                <div class="strip white">
+                    <h1 class="title">Crystal-oss Indications:</h1>
+                    <ol>
+                        <li>Socket Preservation</li>
+                        <li>Ridge Augmentation</li>
+                        <li>Dental Implantology</li>
+                        <li>Periosurgery</li>
+                        <li>Reconstruction of bone defects following excision of benign tumors and
+                            crystals.</li>
+                        <li>Sinus lifting</li>
+                        <li>Defects following removal of autogenous bone in orthopedic surgery and
+                            craniofacial surgery.</li>
+                    </ol>
+                </div>
+                <div class="strip">
+                    <h1 class="title">Crystal-oss Benefits:</h1>
+                    <ol>
+                        <li>Osteoconductive matrix is favorable to bone formation</li>
+                        <li>Porosity of particle allows for revascularization</li>
+                        <li>Particle structure keep to maintain space</li>
+                        <li>Easy handling of material allows for perfect graft placement</li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="images/logo-lines.png"/>
+            <div class="footer-nav-section">
+                <ul class="footer-nav">
+                    <li class="footer-title-item"> For Customers</li>
+                    <li class="footer-link-item"><a href="index.html">Home</a></li>
+                    <li class="footer-link-item"><a href="aboutus.html">About Us</a></li>
+                    <li class="footer-link-item"><a href="faq.html">FAQs</a></li>
+                    <li class="footer-link-item"><a href="teeth-whitening.html">Teeth Whitening</a></li>
+                    <li class="footer-link-item"><a href="devices.html">Devices</a></li>
+                </ul>
+                <ul class="footer-nav">
+                    <li class="footer-title-item"> For Medical Professionals</li>
+                    <li class="footer-link-item"><a href="biomaterials.html">Biomaterials</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="scripts/topbar.js"></script>
+        <script src="scripts/popup.js"></script>
+    </body>
+</html>

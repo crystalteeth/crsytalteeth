@@ -1,0 +1,88 @@
+.landing-banner {
+  padding: 0 4em;
+  margin-top: 10vh;
+  height: 60vh;
+  background: linear-gradient(45deg, #1c75bc, #fff);
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-heading {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+.hero-subheading {
+  font-size: 1.5em;
+}
+.landing-cta {
+  align-self: flex-start;
+  display: inline-block;
+  margin: 1em 0;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 1.2em;
+  box-shadow: 0px 0px 20px 1px #000;
+}
+
+.landing-cta > a {
+  display: inline-block;
+  text-decoration: none;
+  color: #1c75bc;
+  padding: 2em;
+}
+
+.landing-cta:hover > a {
+  text-decoration: underline;
+}
+.landing-cta:hover {
+  box-shadow: none;
+}
+
+.landing-image {
+  max-width: 100%;
+  align-self: center;
+}
+
+.testimonails-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.testimonial {
+  box-shadow: 0 0 5px 0px #000;
+  padding: 1em;
+  width: 27%;
+  border-radius: 5px;
+  margin: 1%;
+}
+
+.testimonial-text::before {
+  content: open-quote;
+  font-size: 3em;
+  color: #1c75bc;
+}
+.testimonial-text::after {
+  content: close-quote;
+  font-size: 0;
+}
+
+.testimonial > * {
+  display: block;
+}
+
+.testimonial-name {
+  color: #1c75bc;
+  font-weight: bold;
+}
+
+.testimonial-subtitle {
+  color: gray;
+}

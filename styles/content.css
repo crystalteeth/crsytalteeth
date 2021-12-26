@@ -1,0 +1,63 @@
+.title,
+.subtitle {
+  color: #1c75bc;
+}
+
+.subtitle {
+  padding-left: 1.5em;
+}
+
+main {
+  margin-top: 10vh;
+  margin-bottom: 1em;
+}
+
+.strip {
+  padding: 2em;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.content-image {
+  width: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  padding: 1em 3em;
+  font-size: 1em;
+}
+
+.responsive-padding {
+  margin: 0 1em;
+}
+
+.shadow {
+  box-shadow: 0 0 10px 0px #000;
+}
+
+@media only screen and (min-width: 1000px) {
+  .responsive-padding {
+    margin: 0 5em;
+  }
+
+  .container {
+    flex-direction: row;
+  }
+
+  .content-image {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .responsive-padding {
+    margin: 0 15em;
+  }
+}

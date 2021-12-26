@@ -1,0 +1,28 @@
+footer {
+  background-color: #1c75bc;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px 1px #000;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 2em;
+}
+
+.footer-link-item > a {
+  color: #fff;
+}
+
+.footer-title-item {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.footer-nav-section {
+  display: flex;
+  border-left: 1px solid #fff;
+}
